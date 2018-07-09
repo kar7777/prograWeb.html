@@ -1,0 +1,254 @@
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+ 
+body {background:#FEFEFE;}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header {
+	width: 100%;
+}
+ 
+header nav {
+	background:rgb(125, 174, 204);
+	z-index:1000;
+	max-width: 1000px;
+	width:100%;
+	margin:20px auto;
+}
+ 
+header nav ul {
+	list-style:none;
+}
+ 
+header nav ul li {
+	display:inline-block;
+	position: relative;
+}
+ 
+header nav ul li:hover {
+	background:rgb(255, 252, 252);
+}
+ 
+header nav ul li a {
+	color:#fff;
+	display:block;
+	text-decoration:none;
+	padding: 20px;
+}
+
+ 
+header nav ul li:hover .children {
+	display:block;
+}
+ 
+header nav ul li .children {
+	display: none;
+	background:#011826;
+	position: absolute;
+	width: 150%;
+	z-index:1000;
+}
+ 
+header nav ul li .children li {
+	display:block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+ 
+header nav ul li .children li a {
+	display: block;
+}
+ 
+header nav ul li .children li a span {
+	float: right;
+	position: relative;
+	top:3px;
+	margin-right:0;
+	margin-left:10px;
+}
+ 
+header nav ul li .caret {
+	position: relative;
+	top:3px;
+	margin-left:10px;
+	margin-right:0px;
+}
+ 
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		position: fixed;
+		top:0;
+		background:#E6344A;
+	}
+ 
+	.menu_bar .btn-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: left;
+	}
+}
+.oscuro{
+    padding: 15px;
+    background-color: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article #main-col{
+    float: left;
+    width: 65%;
+    
+}
+aside {
+	background:#c0b4b46c;
+	padding:20px;
+	/*FLEX*/
+	
+	flex:0 0 300px;
+ 
+	display: flex;
+	
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+
+div.background {
+    background: url(OPG-8.jpg) repeat ;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
+
+footer {
+    width: 100%;
+    padding: 30px 0%;
+    background: rgba(125, 174, 204);
+    overflow: auto;
+}
+
+footer div {
+    width: 80%;
+    margin: 0 auto;
+    min-width: 800px;
+}
+
+footer img {
+    margin-right: 20px;
+    float: left;
+}
+
+footer p {
+    float: left;
+    padding-top: 12px;
+}
+
+.p1{
+    
+    color: #4C4C4C;
+    padding: 0 0 0 42px;
+    margin: 0 0 12px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.arriba{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-self: center;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.actuales{
+    margin: 0%;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 3%;
+}
+
+.convenio{
+    margin: 0%;
+}
+
+.conversemos{
+    margin: 0%;
+    padding-top: 3%;
+    color: #000000;
+}
