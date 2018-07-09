@@ -214,9 +214,13 @@ aside {
 .p1{
     
     color: #4C4C4C;
-    padding: 0 0 0 42px;
-    margin: 0 0 12px;
+    padding: 0 0 0 30px;
+	margin: 0 0 16px;
+	font-size: 20px;
+	font-family: monserrat;
+
 }
+
 footer {
 	background:#bcc8ce;
 	width: 100%;
