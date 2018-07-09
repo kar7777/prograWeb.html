@@ -120,9 +120,13 @@ header nav ul li .children li a {
 	justify-content: right;
 	align-content: center;
 	text-align: justify;
+	display: flex;
+	justify-content: flex-end;
 	
 }
-
+article .row{
+	position: relative;
+}
 
 
 
