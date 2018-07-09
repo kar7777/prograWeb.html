@@ -68,7 +68,9 @@ header nav ul li .children li a {
 	display: block;
 }
  
- 
+
+
+
 @media screen and (max-width: 800px) {
 	body {
 		padding-top:80px;
@@ -137,6 +139,14 @@ article #main-col{
     width: 65%;
     
 }
+ul #nuestroEquipo li{
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #4C4C4C;
+	margin-bottom: 5px;
+	background-color: #35424a;
+}
+
 aside {
 	background:#c0b4b46c;
 	padding:20px;
@@ -154,4 +164,44 @@ aside {
     color: #4C4C4C;
     padding: 0 0 0 42px;
     margin: 0 0 12px;
+}
+footer {
+	background:#95d6ff;
+	width: 100%;
+	padding:20px;
+ 
+	/* Flexbox */
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+ 
+footer .links {
+	background:#c0392b;
+	display:flex;
+	flex-wrap:wrap;
+}
+ 
+footer .links a {
+	flex-grow:1;
+ 
+	color:#fff;
+	padding:10px;
+	text-align: center;
+	text-decoration:none;
+}
+ 
+footer .links a:hover {
+	background:#E74C3C;
+}
+ 
+footer .social {
+	background:#95d6ff;
+}
+ 
+footer .social a {
+	color:#fff;
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
 }
