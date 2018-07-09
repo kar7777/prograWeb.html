@@ -103,7 +103,7 @@ header nav ul li .children li a {
  
 	header nav ul li {
 		display: block;
-		border-bottom:1px solid rgba(255,255,255,.5);
+		border-bottom:1px solid rgb(255, 255, 255);
 	}
  
 	header nav ul li a {
@@ -148,7 +148,7 @@ ul #nuestroEquipo li{
 }
 
 aside {
-	background:#c0b4b46c;
+	background:#796f6f6c;
 	padding:20px;
 	/*FLEX*/
 	
@@ -166,41 +166,21 @@ aside {
     margin: 0 0 12px;
 }
 footer {
-	background:#95d6ff;
+	background:#bcc8ce;
 	width: 100%;
-	padding:20px;
+	text-align: center;
+	padding:10px;
  
 	/* Flexbox */
 	display: flex;
-	flex-wrap:wrap;
-	justify-content:space-between;
-}
- 
-footer .links {
-	background:#c0392b;
-	display:flex;
-	flex-wrap:wrap;
-}
- 
-footer .links a {
-	flex-grow:1;
- 
-	color:#fff;
-	padding:10px;
-	text-align: center;
-	text-decoration:none;
-}
- 
-footer .links a:hover {
-	background:#E74C3C;
+	justify-content:center;
 }
  
 footer .social {
-	background:#95d6ff;
+	background:#bcc8ce;
 }
  
 footer .social a {
-	color:#fff;
 	text-decoration: none;
 	padding:10px;
 	display: inline-block;
