@@ -6,6 +6,42 @@
     box-sizing: border-box;
     
 }
+.contenedor{
+    width: 80%;
+    margin: auto;
+	overflow: hidden;
+	
+}
+
+#boletin{
+    padding: 25px;
+    color: #fff;
+    background-color: #98c6d4;
+
+}
+#boletin h1{
+    float: left;
+    
+}
+#boletin form{
+    float: right;
+    margin-top: 25px;
+    
+}
+#boletin input[type="email"]{
+    padding: 4px;
+   height: 25px;
+   width: 250px;
+    
+}
+.boton1{
+    height: 23px;
+    background: rgb(30, 67, 110);
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
  
 body {background:#FEFEFE;}
  
@@ -18,7 +54,7 @@ header {
 }
  
 header nav {
-	background:#7daecc;
+	background:#95d6ff;
 	z-index:1000;
 	max-width: 1000px;
 	width:100%;
@@ -52,7 +88,7 @@ header nav ul li:hover .children {
  
 header nav ul li .children {
 	display: none;
-	background:#011826;
+	background:#98c6d4;
 	position: absolute;
 	width: 150%;
 	z-index:1000;
@@ -61,28 +97,40 @@ header nav ul li .children {
 header nav ul li .children li {
 	display:block;
 	overflow: hidden;
-	border-bottom: 1px solid rgba(255,255,255,.5);
+	border-bottom: 1px solid rgb(255, 255, 255);
 }
  
 header nav ul li .children li a {
 	display: block;
 }
- 
-header nav ul li .children li a span {
-	float: right;
-	position: relative;
-	top:3px;
-	margin-right:0;
-	margin-left:10px;
+
+.top {
+    position: relative;
+	background: #F5F5F5;
+	
 }
- 
-header nav ul li .caret {
-	position: relative;
-	top:3px;
-	margin-left:10px;
-	margin-right:0px;
+
+.row {
+	max-width:960px;
+	margin: 0 auto;
+	}
+.raw{
+	
+	display: flex;
+	justify-content: right;
+	align-content: center;
+	text-align: justify;
+	display: flex;
+	justify-content: flex-end;
+	
 }
- 
+article .row{
+	position: relative;
+}
+
+
+
+
 @media screen and (max-width: 800px) {
 	body {
 		padding-top:80px;
@@ -93,16 +141,14 @@ header nav ul li .caret {
 		width:100%;
 		position: fixed;
 		top:0;
-		background:#E6344A;
+		background:#95d6ff;;
 	}
  
 	.menu_bar .btn-menu {
 		display: block;
-		padding: 20px;
-		color: #fff;
+		padding: 10px;
 		overflow: hidden;
 		font-size: 25px;
-		font-weight: bold;
 		text-decoration: none;
 	}
  
@@ -112,12 +158,12 @@ header nav ul li .caret {
 		position: fixed;
 		right:100%;
 		margin: 0;
-		overflow: scroll;
+		overflow: scroll ;
 	}
  
 	header nav ul li {
 		display: block;
-		border-bottom:1px solid rgba(255,255,255,.5);
+		border-bottom:1px solid rgb(255, 255, 255);
 	}
  
 	header nav ul li a {
@@ -143,31 +189,64 @@ header nav ul li .caret {
 }
 .oscuro{
     padding: 15px;
-    background-color: #35424a;
+    background-color: #bcc8ce;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 article #main-col{
     float: left;
-    width: 65%;
+    width: 80%;
     
 }
-aside {
-	background:#c0b4b46c;
-	padding:20px;
-	/*FLEX*/
-	
-	flex:0 0 300px;
- 
-	display: flex;
-	
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+ul #nuestroEquipo li{
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #4C4C4C;
+	margin-bottom: 5px;
+	background-color: #35424a;
 }
+
+aside {
+	background:#a79f9f6c;
+	padding:20px;
+	margin: 10px 10px 30px 10px;
+
+
+}
+#lateral {
+	margin-top: 15em;
+	margin-bottom: 15em;
+	margin-left: 25em;
+	margin-right: 20em;
+  }
 .p1{
     
     color: #4C4C4C;
     padding: 0 0 0 42px;
     margin: 0 0 12px;
+}
+footer {
+	background:#bcc8ce;
+	width: 100%;
+	text-align: center;
+	padding:10px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:center;
+}
+ 
+footer .social {
+	background:#bcc8ce;
+}
+ 
+footer .social a {
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+article{
+	padding: 10px;
+
 }
