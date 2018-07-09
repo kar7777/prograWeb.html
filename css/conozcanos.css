@@ -18,10 +18,10 @@ header {
 }
  
 header nav {
-	background:#023859;
+	background:#7daecc;
 	z-index:1000;
 	max-width: 1000px;
-	width:95%;
+	width:100%;
 	margin:20px auto;
 }
  
@@ -35,7 +35,7 @@ header nav ul li {
 }
  
 header nav ul li:hover {
-	background:#E6344A;
+	background:rgb(255, 252, 252);
 }
  
 header nav ul li a {
@@ -44,10 +44,7 @@ header nav ul li a {
 	text-decoration:none;
 	padding: 20px;
 }
- 
-header nav ul li a span {
-	margin-right:10px;
-}
+
  
 header nav ul li:hover .children {
 	display:block;
@@ -99,7 +96,7 @@ header nav ul li .caret {
 		background:#E6344A;
 	}
  
-	.menu_bar .bt-menu {
+	.menu_bar .btn-menu {
 		display: block;
 		padding: 20px;
 		color: #fff;
