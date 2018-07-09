@@ -6,6 +6,32 @@
     box-sizing: border-box;
     
 }
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#boletin{
+    padding: 25px;
+    color: #fff;
+    background: #24282b;
+
+}
+#boletin h1{
+    float: left;
+    
+}
+#boletin form{
+    float: right;
+    margin-top: 25px;
+    
+}
+#boletin input[type="email"]{
+    padding: 4px;
+   height: 25px;
+   width: 250px;
+    
+}
  
 body {background:#FEFEFE;}
  
@@ -129,14 +155,14 @@ header nav ul li .children li a {
 }
 .oscuro{
     padding: 15px;
-    background-color: #35424a;
+    background-color: #bcc8ce;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 article #main-col{
     float: left;
-    width: 65%;
+    width: 80%;
     
 }
 ul #nuestroEquipo li{
@@ -148,17 +174,18 @@ ul #nuestroEquipo li{
 }
 
 aside {
-	background:#796f6f6c;
+	background:#a79f9f6c;
 	padding:20px;
-	/*FLEX*/
-	
-	flex:0 0 300px;
- 
-	display: flex;
-	
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
+	margin: 10px 10px 30px 10px;
+
+
 }
+#lateral {
+	margin-top: 15em;
+	margin-bottom: 15em;
+	margin-left: 25em;
+	margin-right: 20em;
+  }
 .p1{
     
     color: #4C4C4C;
@@ -187,4 +214,5 @@ footer .social a {
 }
 article{
 	padding: 10px;
+
 }
