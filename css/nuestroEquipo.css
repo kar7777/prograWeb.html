@@ -1,0 +1,38 @@
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+}
+#lateral {
+	margin: 11em;
+}
+footer {
+	background:#bcc8ce;
+	width: 100%;
+	text-align: center;
+	padding:10px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:center;
+}
+ 
+footer .social {
+	background:#bcc8ce;
+}
+ 
+footer .social a {
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+aside {
+	background:#cf4b4b6c;
+	padding:20px;
+	margin: 10px 10px 30px 10px;
+
+
+}

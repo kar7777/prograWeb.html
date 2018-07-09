@@ -187,13 +187,7 @@ article .row{
 		float: left;
 	}
 }
-.oscuro{
-    padding: 15px;
-    background-color: #bcc8ce;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
+
 article #main-col{
     float: left;
     width: 80%;
@@ -208,18 +202,15 @@ ul #nuestroEquipo li{
 }
 
 aside {
-	background:#a79f9f6c;
-	padding:20px;
-	margin: 10px 10px 30px 10px;
+	background:#e2d8d8;
+	padding:10px;
+	margin: 10px 0px 10px 10px;
 
 
 }
 #lateral {
-	margin-top: 15em;
-	margin-bottom: 15em;
-	margin-left: 25em;
-	margin-right: 20em;
-  }
+	margin: 11em;
+}
 .p1{
     
     color: #4C4C4C;
