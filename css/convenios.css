@@ -18,7 +18,7 @@ header {
 }
  
 header nav {
-	background:rgb(125, 174, 204);
+	background:#99d3f8;
 	z-index:1000;
 	max-width: 1000px;
 	width:100%;

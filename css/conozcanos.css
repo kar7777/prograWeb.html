@@ -205,16 +205,29 @@ ul #nuestroEquipo li{
 	background-color: #35424a;
 }
 
+.oscuro{
+	padding: 0px;
+	
+	background: #99d3f8;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10px;
+	color: #fff;
+
+}
 aside {
 	background:#e2d8d8;
-	padding:10px;
-	margin: 10px 0px 10px 10px;
+	padding:0px;
+	margin: 0px 0px 0px 0px;
+	width: auto;
 
 
 }
-#lateral {
-	margin: 11em;
+ #lateral {
+	margin: 11px;
+	background: #d1d4d6;
+	padding-left: 10% ;
 }
+
 .p1{
     
     color: #4C4C4C;
@@ -385,4 +398,5 @@ form.form_contact input[type= "button"]{
 form.form_contact input[type= "button"]:hover{
 	background: rgb(30, 48, 70);
 }
+
 
