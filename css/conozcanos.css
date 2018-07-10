@@ -399,4 +399,7 @@ form.form_contact input[type= "button"]:hover{
 	background: rgb(30, 48, 70);
 }
 
-
+.fakeimg {
+	height: 200px;
+	background: #aaa;
+}
