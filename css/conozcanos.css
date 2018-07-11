@@ -210,6 +210,8 @@ ul #nuestroEquipo li{
 
 }
 aside {
+	padding: 20px;
+	margin: 30px;
 	float: none;
 	position: relative;
 	background:#f8f8f8;
@@ -229,7 +231,7 @@ aside h5{
 	font-style: normal;
 	font-family:montserrat; 
 	display:block;
-	border-bottom:3px solid rgb(0, 19, 22);
+	border-bottom:3px solid #aaddee;
 }
 aside a{
 	padding: 5px;
@@ -237,7 +239,7 @@ aside a{
 	height: -110px;
 	position: relative;
 	display:block;
-	border-bottom:1px solid rgb(16, 50, 56);
+	border-bottom:1px solid rgb(178, 239, 250);
 }
 
 
@@ -246,6 +248,10 @@ aside a{
 	background: #f0f2f3;
 	padding-left: 10% ;
 	
+}
+#lateral h3{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
 }
 
 
