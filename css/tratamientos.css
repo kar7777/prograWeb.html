@@ -191,3 +191,49 @@ aside {
     justify-content: center;
     padding-top: 6%;
 }
+
+#contenedor {
+    
+    background:rgb(255, 255, 255);
+	width: 80%;
+    min-width: 800px;
+    margin: 0px auto;
+ 
+	/* Flexbox */
+    display:flex;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    
+}
+
+
+#contenedor > div {
+    background-color:#FFF;
+    color:#000000;
+    margin: 20px;
+
+}
+
+footer {
+	background:#bcc8ce;
+	width: 100%;
+	text-align: center;
+	padding:10px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:center;
+}
+ 
+footer .social {
+	background:#bcc8ce;
+}
+ 
+footer .social a {
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}

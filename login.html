@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name= "author" content="Karla Ballestero & Fernanda Murillo">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Login/Registrar | OdontoMóvil</title>
+    
+        <link rel="stylesheet" href="css/login.scss">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="js/login.js">
+        <link rel="shortcut icon" href="img/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ubuntu" rel="stylesheet">
+
+</head>
+<body>
+    <header> 
+        <div class="menu_bar">
+            <a href="#" class="btn-menu"><span class="icon-menu"></span>Menú</a>
+        </div>
+        <nav>
+            <ul>
+                <li class="nav-item"><a class="nav-link"  href="home.html">Inicio</a></li>
+                <li class="submenu">
+                    <a href="#">Conózcanos</a>
+                    <ul class="children">
+                        <li class="nav-item"><a class="nav-link"  href="#">¿Quiénes Somos?</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="nuestroEquipo.html">Nuestro Equipo</a></li>
+                    </ul>
+                </li>
+                <li class="submenu">
+                    <a href="#">Tratamientos</a>
+                    <ul class="children">
+                        <li class="nav-item"><a class="nav-link"  href="#">Revisión Dental</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Resina(Calzas Blanca)</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Amalgamas (Calzas Grises)</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Limpiezas Dentales</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Blanqueamientos Dentales</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Cirugia de Cordales</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Extracciones</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link"  href="#">Convenios</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Giras</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Servicios en línea</a></li>
+                <li class="nav-item"><a class="nav-link"  href="#">Registro/Login</a></li>
+                
+            </ul>
+        </nav>
+    </header>   
+    
+   <!-- Formularios -->
+    <div class="contenedor-formularios">
+        <!-- Links de los formularios -->
+        <ul class="contenedor-tabs">
+            <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+            <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
+        </ul>
+
+        <!-- Contenido de los Formularios -->
+        <div class="contenido-tab">
+            <!-- Iniciar Sesion -->
+            <div id="iniciar-sesion">
+                <h1>Iniciar Sesión</h1>
+                <form action="#" method="post">
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+                    <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                    <input type="submit" class="button button-block" value="Iniciar Sesión">
+                </form>
+            </div>
+
+            <!-- Registrarse -->
+            <div id="registrarse">
+                <h1>Registrarse</h1>
+                <form action="#" method="post">
+                    <div class="fila-arriba">
+                        <div class="contenedor-input">
+                            <label>
+                                Nombre <span class="req">*</span>
+                            </label>
+                            <input type="text" required >
+                        </div>
+
+                        <div class="contenedor-input">
+                            <label>
+                                Apellido <span class="req">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Usuario <span class="req">*</span>
+                        </label>
+                        <input type="text" required>
+                    </div>
+                    <div class="contenedor-input">
+                            <label>
+                                Email <span class="req">*</span>
+                            </label>
+                        <input type="email" required>
+                    </div>
+                    <div class="contenedor-input">
+                        <label>
+                            Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+
+                    <div class="contenedor-input">
+                        <label>
+                            Repetir Contraseña <span class="req">*</span>
+                        </label>
+                        <input type="password" required>
+                    </div>
+
+                    <input type="submit" class="button button-block" value="Registrarse">
+                </form>
+            </div>
+        </div>
+    </div>
+
+   <script src="js/jquery.js"></script>
+   <script src="js/login.js"></script>
+
+</body>
+</html>
