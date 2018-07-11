@@ -237,7 +237,7 @@ footer .social a {
     margin: 0%;
     font-weight: bold;
     color: #000000;
-    padding-top: 3%;
+    padding-top: 0%;
 }
 
 .convenio{
@@ -248,4 +248,78 @@ footer .social a {
     margin: 0%;
     padding-top: 3%;
     color: #000000;
+}
+
+aside {
+	float: none;
+	position: relative;
+	background:#f8f8f8;
+	margin: 30px;
+
+	display: block;
+	box-sizing: border-box;
+	text-decoration:none;
+
+}
+aside .top{
+	font-style: italic;
+
+}
+aside h5{
+	margin: 5px;
+	font-style: normal;
+	font-family:montserrat; 
+	display:block;
+	border-bottom:3px solid rgb(0, 19, 22);
+}
+aside a{
+	padding: 5px;
+	width: 38%;
+	height: -110px;
+	position: relative;
+	display:block;
+	border-bottom:1px solid rgb(16, 50, 56);
+}
+#centro{
+	background: #fff;
+	text-align: left;
+	padding-left: 27.8% ;
+	width:100%;
+	margin:auto;
+ 
+	display:flex;
+	flex-flow:row wrap;
+}
+.light{
+font-size: 10%;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(255, 253, 253);
+padding: 30px 30px;
+margin: 40px -340px 10px -200px;
+background: #d2d3d4;
+
+}
+
+.top {
+    position: relative;
+	background: #F5F5F5;
+	
+}
+
+.row {
+	max-width:960px;
+	margin: 0 auto;
+	}
+.raw{
+	
+	display: flex;
+	justify-content: right;
+	align-content: center;
+	text-align: justify;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+article .row{
+	position: relative;
 }
