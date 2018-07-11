@@ -403,3 +403,22 @@ form.form_contact input[type= "button"]:hover{
 	height: 200px;
 	background: #aaa;
 }
+#centro{
+	background: #fff;
+	text-align: left;
+	padding-left: 27.8% ;
+	width:100%;
+	margin:auto;
+ 
+	display:flex;
+	flex-flow:row wrap;
+}
+.light{
+font-size: 10%;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(255, 253, 253);
+padding: 30px 30px;
+margin: 40px -340px 10px -200px;
+background: #d2d3d4;
+
+}
